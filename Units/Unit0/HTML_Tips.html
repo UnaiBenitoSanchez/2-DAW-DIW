@@ -16,7 +16,7 @@
 
 </head>
 
-<body >
+<body>
 
     <h1>HTML Tips</h1>
 
@@ -165,11 +165,11 @@
         Use the spellcheck attribute to define whether the element may be checked for spelling errors.
     </p>
 
-    <label for="input1">spellcheck="true"</label>
-    <input type="text" id="input1" spellcheck="true">
+    <label for="input1">spellcheck="hello"</label>
+    <input type="text" id="input1" spellcheck="hello">
 
-    <label for="input2">spellcheck="false"</label>
-    <input type="text" id="input2" spellcheck="false">
+    <label for="input2">spellcheck="bye"</label>
+    <input type="text" id="input2" spellcheck="bye">
 
     <h2>11. Native HTML sliders</h2>
 
@@ -194,9 +194,7 @@
             </summary>
 
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum perferendis eius. Adipisci velit et
-                similique earum quas illo odio rerum optio, quis, expedita assumenda enim dicta aliquam porro maxime
-                minima sed a ullam, aspernatur corporis.
+                Hi
             </p>
         </details>
     </div>
@@ -207,13 +205,7 @@
         <p>You can use the <code>&lt;mark&gt;</code> tag to highlight text.</p>
     </div>
 
-
-    <div class="pb30">
-        <img class="responsive post-image" src="https://markodenic.com/wp-content/uploads/2020/04/mark-styled.png"
-            title="Mark Tag" alt="Mark Tag implementation" width="1225" height="742" loading="lazy">
-    </div>
-
-    </div>
+    <p>I <mark>really</mark> hate GitHub</p>
 
     <h2>14. `download` attribute</h2>
 
@@ -222,8 +214,8 @@
             it.</p>
     </div>
 
-    <a href='path/to/file' download>
-        Download
+    <a href='../../How to create a GitHub website.pdf' download>
+        How to create a GitHub website pdf
     </a>
 
     </div>
@@ -264,11 +256,13 @@
             free.</p>
     </div>
 
-    <div class="pb30">
-        <img class="responsive post-image"
-            src="https://markodenic.com/wp-content/uploads/2021/05/search-input-e1620547492252.png"
-            title="Input Type Search" alt="Input Type Search" width="890" height="500" loading="lazy">
-    </div>
+    <form>
+        <label for="text">Input Type Text</label>
+        <input type="text" id="text" nme="text">
+
+        <label for="search">Input Type Search</label>
+        <input type="search" id="search" nme="search">
+    </form>
 
     <h2>18. `pre` tag</h2>
 
@@ -281,12 +275,12 @@
     </h3>
 
     <pre>
-          .center {
-              display: flex;
-              align-items: center;
-              justify-content: center;   
-          }           
-      </pre>
+             .center {
+                display: flex;
+                align-items: center;
+                justify-content: center;   
+            }           
+    </pre>
 
     <h3>
         Without pre tag
