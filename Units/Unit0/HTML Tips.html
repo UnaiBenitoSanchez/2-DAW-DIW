@@ -167,11 +167,65 @@
 
     <h2>12. HTML Accordion</h2>
 
+    <p>You can use the details element to create a native HTML accordion.</p>
+
+    <div class="wrapper">
+        <details>
+            <summary>
+                Click me to see more details
+            </summary>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum perferendis eius. Adipisci velit et
+                similique earum quas illo odio rerum optio, quis, expedita assumenda enim dicta aliquam porro maxime
+                minima sed a ullam, aspernatur corporis.
+            </p>
+        </details>
+    </div>
+
     <h2>13. `mark` tag</h2>
+
+    <div class="paragraph">
+        <p>You can use the <code>&lt;mark&gt;</code> tag to highlight text.</p>
+    </div>
+
+
+    <div class="pb30">
+        <img class="responsive post-image" src="https://markodenic.com/wp-content/uploads/2020/04/mark-styled.png"
+            title="Mark Tag" alt="Mark Tag implementation" width="1225" height="742" loading="lazy">
+    </div>
+
+    </div>
 
     <h2>14. `download` attribute</h2>
 
+    <div class="paragraph">
+        <p>You can use the <code>download</code> attribute in your links to download the file instead of navigating to
+            it.</p>
+    </div>
+
+    <a href='path/to/file' download>
+        Download
+    </a>
+
+    </div>
+
     <h2>15. Performance tip</h2>
+
+    <div class="paragraph">
+        <p>Use the <code>.webp</code> image format to make images smaller and boost the performance of your website.</p>
+    </div>
+
+    <picture>
+        <!-- load .webp image if supported -->
+        <source srcset="logo.webp" type="image/webp">
+
+        <!-- 
+          Fallback if `.webp` images or <picture> tag 
+          not supported by the browser.
+        -->
+        <img src="logo.png" alt="logo">
+    </picture>
 
     <h2>16. Video thumbnail</h2>
 
