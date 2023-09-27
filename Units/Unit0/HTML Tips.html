@@ -100,13 +100,70 @@
 
     <h2>7. Window.opener</h2>
 
+    <p>Pages opened with target="_blank" allow the new page to access the original’s window.opener. This can have
+        security and performance implications. Include rel="noopener" or rel="noreferrer" to prevent this.</p>
+
+    <a href="https://markodenic.com/" target="_blank" rel="noopener">
+        Marko's website
+    </a>
+
     <h2>8. Base Element</h2>
+
+    <P>
+        If you want to open all links in the document in a new tab, you can use base element:
+    </P>
+
+    <head>
+        <base target="_blank">
+    </head>
+    <!-- This link will open in a new tab. -->
+    <div class="wrapper">
+        This link will be opened in a new tab: &nbsp;
+        <a href="https://freecodetools.org/">
+            Free Code Tools
+        </a>
+
+        <p>
+            Read more: <br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base">
+                MDN Documentation
+            </a>
+        </p>
+    </div>
 
     <h2>9. Favicon cache busting</h2>
 
+    <P>
+        To refresh your website’s favicon you can force browsers to download a new version by adding ?v=2 to the
+        filename.
+
+        This is especially helpful in production to make sure the users get the new version.
+    </P>
+
+    <link rel="icon" href="/favicon.ico?v=2" />
+
     <h2>10. The `spellcheck` attribute</h2>
 
+    <p>
+        Use the spellcheck attribute to define whether the element may be checked for spelling errors.
+    </p>
+
+    <label for="input1">spellcheck="true"</label>
+    <input type="text" id="input1" spellcheck="true">
+
+    <label for="input2">spellcheck="false"</label>
+    <input type="text" id="input2" spellcheck="false">
+
     <h2>11. Native HTML sliders</h2>
+
+    <p>
+        You can use (input type="range") to create sliders.
+    </p>
+
+    <label for="volume">Volume: </label>
+    <input type="range" id="volume" name="volume" min="0" max="20">
+
+    <label for="result">Your choice: </label>
+    <input type="number" id="result" name="result">
 
     <h2>12. HTML Accordion</h2>
 
