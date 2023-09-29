@@ -1,79 +1,37 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 
 <head>
+    <title>Mi Página con Botones</title>
+    <style>
+        /* Estilo para los botones */
+        .boton {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 95px 55px;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            opacity: 0;
+        }
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        /* Posiciones de los botones */
+        #boton1 {
+            top: 50%;
+            left: 57%;
+        }
 
-  <title>Document</title>
-  <style>
-    h1 {
-      text-align: center;
-    }
-
-    body {
-      background-image: url('https://images3.alphacoders.com/587/587453.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-    }
-
-    .card-layout {
-      display: flex;
-      flex-wrap: wrap;
-      margin-left: 1px;
-      margin-right: 1px;
-    }
-
-    .card-layout__item {
-      text-align: center;
-      font-size: 20px;
-      margin: auto;
-      border: 2px solid darkslateblue;
-      border-radius: 5px;
-      flex-basis: -50%;
-      padding-left: 1px;
-      padding-right: 1px;
-    }
-  </style>
-
+        body {
+            background-image: url("https://images7.alphacoders.com/101/1015546.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
 </head>
 
 <body>
-
-  <h1 style="color: #FFFFFF;font-size: 50px;text-decoration-line: underline;text-decoration-color: chartreuse;">DIW Units</h1>
-  <div class="card-layout">
-    <div class="card-layout__item">
-      <h2 style="color:#FFFFFF">Unit 0: <a href="./Units/Unit0/index.html">Introduction</a></h2>
-    </div>
-
-    <div class="card-layout__item">
-      <h2 style="color:#FFFFFF">Unit 1: <a href="./Units/Unit1/index.html">Graphic Interface Planning</a></h2>
-    </div>
-
-    <div class="card-layout__item">
-      <h2 style="color:#FFFFFF">Unit 2: <a href="./Units/Unit2/index.html">Style Usage</a></h2>
-    </div>
-
-    <div class="card-layout__item">
-      <h2 style="color:#FFFFFF">Unit 3: <a href="./Units/Unit3/index.html">Multimedia Content Deployment</a></h2>
-    </div>
-
-    <div class="card-layout__item">
-      <h2 style="color:#FFFFFF" F>Unit 4: <a href="./Units/Unit4/index.html">Interactive Content Integration</a></h2>
-    </div>
-
-    <div class="card-layout__item">
-      <h2 style="color:#FFFFFF">Unit 5: <a href="./Units/Unit5/index.html">Accessible Web Design</a></h2>
-    </div>
-
-    <div class="card-layout__item">
-      <h2 style="color:#FFFFFF">Unit 6: <a href="./Units/Unit6/index.html">Usable Web Implementation</a></h2>
-    </div>
-
-  </div>
+    <button id="boton1" class="boton" onclick="location.href='./menu.html'">a</button>
 </body>
 
 </html>
