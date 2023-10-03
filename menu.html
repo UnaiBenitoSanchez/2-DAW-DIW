@@ -9,6 +9,24 @@
 
   <title>Units Menu</title>
   <style>
+    
+    /* Estilo para los botones */
+    .boton1 {
+      width: 260px;
+      height: 189px;
+      border-radius: 50%;
+
+      cursor: pointer;
+      position: absolute;
+      opacity: 0.5;
+    }
+
+    /* Posiciones de los botones */
+    #boton1 {
+      top: 229px;
+      left: 174px;
+    }
+
     h1 {
       text-align: center;
     }
@@ -16,8 +34,8 @@
     body {
       background-image: url('./Images/Pokeballs.png');
       background-size: 1600px 740px;
-            background-repeat: no-repeat;
-            background-color: black;
+      background-repeat: no-repeat;
+      background-color: black;
     }
 
     .card-layout {
@@ -43,7 +61,10 @@
 
 <body>
 
-  <h1 style="color: #FFFFFF;font-size: 50px;text-decoration-line: underline;text-decoration-color: chartreuse;">DIW Units</h1>
+  <button id="boton1" class="boton1" onclick="location.href='./Units/Unit0/index.html'">Unit 0 : Introduction</button>
+
+  <h1 style="color: #FFFFFF;font-size: 50px;text-decoration-line: underline;text-decoration-color: chartreuse;">DIW
+    Units</h1>
   <div class="card-layout">
     <div class="card-layout__item">
       <h2 style="color:#FFFFFF">Unit 0: <a href="./Units/Unit0/index.html">Introduction</a></h2>
