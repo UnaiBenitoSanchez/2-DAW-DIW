@@ -9,7 +9,6 @@
 
   <title>Units Menu</title>
   <style>
-
     /* Estilo para los botones */
     .boton0 {
       width: 260px;
@@ -18,8 +17,9 @@
 
       cursor: pointer;
       position: absolute;
-      opacity: 0.5;
+      opacity: 0;
     }
+
     .boton1 {
       width: 270px;
       height: 229px;
@@ -27,8 +27,9 @@
 
       cursor: pointer;
       position: absolute;
-      opacity: 0.5;
+      opacity: 0;
     }
+
     .boton2 {
       width: 305px;
       height: 275px;
@@ -36,8 +37,9 @@
 
       cursor: pointer;
       position: absolute;
-      opacity: 0.5;
+      opacity: 0;
     }
+
     .boton3 {
       width: 235px;
       height: 200px;
@@ -45,8 +47,9 @@
 
       cursor: pointer;
       position: absolute;
-      opacity: 0.5;
+      opacity: 0;
     }
+
     .boton4 {
       width: 260px;
       height: 235px;
@@ -54,8 +57,9 @@
 
       cursor: pointer;
       position: absolute;
-      opacity: 0.5;
+      opacity: 0;
     }
+
     .boton5 {
       width: 215px;
       height: 190px;
@@ -63,8 +67,9 @@
 
       cursor: pointer;
       position: absolute;
-      opacity: 0.5;
+      opacity: 0;
     }
+
     .boton6 {
       width: 250px;
       height: 213px;
@@ -72,34 +77,40 @@
 
       cursor: pointer;
       position: absolute;
-      opacity: 0.5;
+      opacity: 0;
     }
 
     /* Posiciones de los botones */
     #boton0 {
       top: 248px;
-      left: 174px; 
+      left: 174px;
     }
+
     #boton1 {
       top: 329px;
       left: 385px;
     }
+
     #boton2 {
       top: 485px;
       left: 585px;
     }
+
     #boton3 {
       top: 204px;
       left: 652px;
     }
+
     #boton4 {
       top: 315px;
       left: 858px;
     }
+
     #boton5 {
       top: 143px;
       left: 895px;
     }
+
     #boton6 {
       top: 234px;
       left: 1160px;
@@ -108,41 +119,47 @@
     /* posiciones de iconos entrada */
     .image0 {
       position: absolute;
-      padding-top: 85px;
-      padding-left: 279px;
+      margin-top: 175px;
+      padding-left: 285px;
     }
+
     .image1 {
       position: absolute;
-      padding-top: 170px;
+      padding-top: 260px;
       padding-left: 495px;
     }
+
     .image2 {
       position: absolute;
-      padding-top: 323px;
+      padding-top: 413px;
       padding-left: 715px;
     }
+
     .image3 {
       position: absolute;
-      padding-top: 45px;
+      padding-top: 135px;
       padding-left: 745px;
     }
+
     .image4 {
       position: absolute;
-      padding-top: 430px;
+      padding-top: 520px;
       padding-left: 965px;
     }
+
     .image5 {
       position: absolute;
-      margin-top: -15px;
+      margin-top: 75px;
       padding-left: 975px;
     }
+
     .image6 {
       position: absolute;
-      padding-top: 75px;
+      padding-top: 165px;
       padding-left: 1265px;
     }
 
-    h1 { 
+    h1 {
       text-align: center;
     }
 
@@ -152,30 +169,44 @@
       background-repeat: no-repeat;
       background-color: black;
     }
-
   </style>
 
 </head>
 
 <body>
 
-  <button id="boton0" class="boton0" onclick="location.href='./Units/Unit0/index.html'">Unit 0 : Introduction</button>
-  <button id="boton1" class="boton1" onclick="location.href='./Units/Unit1/index.html'">Unit 1 : Graphic Interface Planning</button>
-  <button id="boton2" class="boton2" onclick="location.href='./Units/Unit2/index.html'">Unit 2 : Style Usage</button>
-  <button id="boton3" class="boton3" onclick="location.href='./Units/Unit3/index.html'">Unit 3 : Multimedia Content Deployment</button>
-  <button id="boton4" class="boton4" onclick="location.href='./Units/Unit4/index.html'">Unit 4 : Interactive Content Integration</button>
-  <button id="boton5" class="boton5" onclick="location.href='./Units/Unit5/index.html'">Unit 5 : Accessible Web Design</button>
-  <button id="boton6" class="boton6" onclick="location.href='./Units/Unit6/index.html'">Unit 6 : Usable Web Implementation</button>
-
-  <h1 style="color: #FFFFFF;font-size: 50px;text-decoration-line: underline;text-decoration-color: rgb(255, 153, 0);">DIW Units</h1>
-
   <img class="image0" src="./Images/IconoInterno.png" />
   <img class="image1" src="./Images/IconoInterno.png" />
   <img class="image2" src="./Images/IconoInterno.png" />
   <img class="image3" src="./Images/IconoInterno.png" />
-  <img class="image4" src="./Images/IconoInterno.png" />
+  <img class="image4" src="./Images/IconoInternoInvertido.png" />
   <img class="image5" src="./Images/IconoInterno.png" />
   <img class="image6" src="./Images/IconoInterno.png" />
+
+
+  <button title="Unit 0 : Introduction" alt="Unit 0 : Introduction" 
+  id="boton0" class="boton0" onclick="location.href='./Units/Unit0/index.html'">Unit 0 : Introduction</button>
+
+  <button title="Unit 1 : Graphic Interface  Planning" alt="Unit 1 : Graphic Interface Planning"
+  id="boton1" class="boton1" onclick="location.href='./Units/Unit1/index.html'">Unit 1 : Graphic Interface Planning</button>
+
+  <button title="Unit 2 : Style Usage" alt="Unit 2 : Style Usage" 
+  id="boton2" class="boton2" onclick="location.href='./Units/Unit2/index.html'">Unit 2 : Style Usage</button>
+
+  <button title="Unit 3 : Multimedia Content Deployment" alt="Unit 3 : Multimedia Content Deployment" 
+  id="boton3" class="boton3" onclick="location.href='./Units/Unit3/index.html'">Unit 3 : Multimedia Content Deployment</button>
+
+  <button title="Unit 4 : Interactive Content Integration" alt="Unit 4 : Interactive Content Integration"
+  id="boton4" class="boton4"
+  onclick="location.href='./Units/Unit4/index.html'">Unit 4 : Interactive Content Integration</button>
+
+  <button title="Unit 5 : Accessible Web Design" alt="Unit 5 : Accessible Web Design" 
+  id="boton5" class="boton5" onclick="location.href='./Units/Unit5/index.html'">Unit 5 : Accessible Web Design</button>
+
+  <button title="Unit 6 : Usable Web Implementation" alt="Unit 6 : Usable Web Implementation" 
+  id="boton6" class="boton6" onclick="location.href='./Units/Unit6/index.html'">Unit 6 : Usable Web Implementation</button>
+
+  <h1 style="color: #FFFFFF;font-size: 50px;text-decoration-line: underline;text-decoration-color: rgb(255, 153, 0);">DIW Units</h1>
 
 </body>
 
