@@ -20,6 +20,10 @@ header{
     background: transparent;
 }
 
+body{
+    background: linear-gradient(245.59deg, #a543f5 0%, #61178b 28.53%, #320b52 75.52%);
+}
+
 section{
     padding: 0 19%;
 }
@@ -59,7 +63,6 @@ section{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #a543f5 0%, #61178b 28.53%, #320b52 75.52%);
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -266,7 +269,7 @@ section{
         top: 100%;
         right: -100%;
         width: 300px;
-        height: 40vh;     
+        height: 290px;     
         background: #ff2df5;
         display: flex;
         align-items: center;
@@ -292,6 +295,12 @@ section{
     .welcome-img{
         width: 100%;
         height: auto;
+    }
+
+    .navlist a{
+        display: block;
+        margin: 7px 0;
+        margin-left: 0;
     }
 
 }
